@@ -7,7 +7,7 @@
     $pdf->SetMargins(4,10,4);
     $pdf->AddPage();
     
-    # Encabezado y datos de la empresa #
+    # COOPMOTILONES #
     $pdf->SetFont('Arial','B',10);
     $pdf->SetTextColor(0,0,0);
     $pdf->MultiCell(0,5,iconv("UTF-8", "ISO-8859-1",strtoupper("Nombre de empresa")),0,'C',false);
